@@ -46,27 +46,36 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/5e5432c0-4eb1-40cb-b38d-cb179763d3f8" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/dba7d40c-de5e-4f58-aa2c-4359daa0b358" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/6d3fd125-52e9-482a-b298-a457b5dcf0c9" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/114c250c-02b1-4755-8f5a-7ab0c2531c6f" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/e4bd1e41-6fc4-48ab-87a1-cb50788a8041" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/ab7e94d4-69c0-47bf-9868-fbd5bcad9b1c" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
+
 
 **Prompt:** Four flickering candles cast shadows as they burn steadily on the balcony, their flames dancing with the gentle breeze.
 

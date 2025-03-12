@@ -283,7 +283,7 @@ To evaluate generated videos using the VMBench, run the following command:
 bash evaluate.sh your_videos_folder
 ```
 
-The evaluation results for each video will be saved in the `./eval_results/${current_time}/results.json`. Scores for each dimension and the total score will be stored in the `./eval_results/${current_time}/scores.csv`.
+The evaluation results for each video will be saved in the `./eval_results/${current_time}/results.json`. Scores for each dimension will be saved as `./eval_results/${current_time}/scores.csv`.
 
 ### Evaluation Efficiency
 

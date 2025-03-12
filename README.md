@@ -1,5 +1,3 @@
-# VMBench README
-
 ![title.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/4j6OJMJEg6rjq3p8/img/666040a8-4ec1-474f-840e-f039539d7d08.png)
 
 # 🔥 Updates
@@ -23,7 +21,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> |
 |                   **OpenSora-Plan-v1.3.0**                   |                      **OpenSora-v1.2**                       |                          **Wan2.1**                          |
-| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <video src="https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b" width="100%" controls autoplay loop></video>|
+| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <video src="https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b" width="200" controls autoplay loop></video>|
 
 **Prompt:** Three books are thrown into the air, their pages fluttering as they soar over the soccer field, landing in a scattered pattern.
 

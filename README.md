@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./asset/logo.png" width="100%"/>
+  <img src="./asset/logo.png" width="80%"/>
 </p>
 
 # 🔥 Updates
@@ -13,7 +13,8 @@
   <img src="./asset/overview.png" width="100%"/>
 </p>
 
-Video generation has advanced rapidly, improving evaluation methods, yet assessing video's motion remains a major challenge. Specifically, there are two key issues: 1) current motion metrics do not fully align with human perceptions; 2) the existing motion prompts are limited. Based on these findings, we introduce **VMBench**---a comprehensive **V**ideo **M**otion **Bench**mark that has perception-aligned motion metrics and features the most diverse types of motion. VMBench has several appealing properties: (1) **Perception-Driven Motion Evaluation Metrics**, we identify five dimensions based on human perception in motion video assessment and develop fine-grained evaluation metrics, providing deeper insights into models' strengths and weaknesses in motion quality. (2) **Meta-Guided Motion Prompt Generation**, a structured method that extracts meta-information, generates diverse motion prompts with LLMs, and refines them through human-AI validation, resulting in a multi-level prompt library covering six key dynamic scene dimensions. (3) **Human-Aligned Validation Mechanism**, we provide human preference annotations to validate our benchmarks, with our metrics achieving an average 35.3% improvement in Spearman’s correlation over baseline methods. This is the first time that the quality of motion in videos has been evaluated from the perspective of human perception alignment. Additionally, we will soon release VMBench as an open-source benchmark, setting a new standard for evaluating and advancing motion generation models.
+
+Video generation has advanced rapidly, improving evaluation methods, yet assessing video's motion remains a major challenge. Specifically, there are two key issues: 1) current motion metrics do not fully align with human perceptions; 2) the existing motion prompts are limited. Based on these findings, we introduce **VMBench**---a comprehensive **V**ideo **M**otion **Bench**mark that has perception-aligned motion metrics and features the most diverse types of motion. VMBench has several appealing properties: (1) **Perception-Driven Motion Evaluation Metrics**, we identify five dimensions based on human perception in motion video assessment and develop fine-grained evaluation metrics, providing deeper insights into models' strengths and weaknesses in motion quality. (2) **Meta-Guided Motion Prompt Generation**, a structured method that extracts meta-information, generates diverse motion prompts with LLMs, and refines them through human-AI validation, resulting in a multi-level prompt library covering six key dynamic scene dimensions. (3) **Human-Aligned Validation Mechanism**, we provide human preference annotations to validate our benchmarks, with our metrics achieving an average 35.3% improvement in Spearman’s correlation over baseline methods. This is the first time that the quality of motion in videos has been evaluated from the perspective of human perception alignment.
 
 # 📊Evaluation Results
 
@@ -183,10 +184,21 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 ## Quantitative Results
 
 <p align="center">
-  <img src="./asset/eval_result.png" width="100%"/>
+  <img src="./asset/eval_result.png" width="80%"/>
 </p>
     
 ### VMBench Leaderboard
+
+| Models               | Avg      | CAS      | MSS      | OIS      | PAS      | TCS      |
+| -------------------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| OpenSora-v1.2        | 51.6     | 31.2     | 61.9     | 73.0     | 3.4      | 88.5     |
+| Mochi 1              | 53.2     | 37.7     | 62.0     | 68.6     | 14.4     | 83.6     |
+| OpenSora-Plan-v1.3.0 | 58.9     | 39.3     | 76.0     | **78.6** | 6.0      | 94.7     |
+| CogVideoX-5B         | 60.6     | 50.6     | 61.6     | 75.4     | 24.6     | 91.0     |
+| HunyuanVideo         | 63.4     | 51.9     | 81.6     | 65.8     | **26.1** | 96.3     |
+| Wan2.1               | **78.4** | **62.8** | **84.2** | 66.0     | 17.9     | **97.8** |
+
+# 
 
 # 🔨 Installation
 
@@ -263,6 +275,8 @@ You can follow us `sample_video_demo.py` to generate videos. Or you can put the 
     
 
 ## Evaluation on the VMBench
+
+## Running the Evaluation Pipeline
 To evaluate generated videos using the VMBench, run the following command:
 
 ```shell
@@ -270,6 +284,27 @@ bash evaluate.sh your_videos_folder
 ```
 
 The evaluation results for each video will be saved in the `./eval_results/${current_time}/results.json`. Scores for each dimension and the total score will be stored in the `./eval_results/${current_time}/scores.csv`.
+
+## Evaluation Efficiency
+
+We conducted a test using the following configuration:
+
+- **Model**: CogVideoX-5B
+- **Number of Videos**: 1,050
+- **Frames per Video**: 49
+- **Frame Rate**: 8 FPS
+
+Here are the time measurements for each evaluation metric:
+
+| Metric | Time Taken |
+|--------|------------|
+| PAS (Perceptible Amplitude Score) | 45 minutes |
+| OIS (Object Integrity Score) | 30 minutes |
+| TCS (Temporal Coherence Score) | 2 hours |
+| MSS (Motion Smoothness Score) | 2.5 hours |
+| CAS (Commonsense Adherence Score) | 1 hour |
+
+**Total Evaluation Time**: 6 hours and 45 minutes
 
 # ❤️Acknowledgement
 We would like to express our gratitude to the following open-source repositories that our work is based on: [GroundedSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [GroundedSAM2](https://github.com/IDEA-Research/Grounded-SAM-2), [Co-Tracker](https://github.com/facebookresearch/co-tracker), [MMPose](https://github.com/open-mmlab/mmpose), [Q-Align](https://github.com/Q-Future/Q-Align), [VideoMAEv2](https://github.com/OpenGVLab/VideoMAEv2), [VideoAlign](https://github.com/KwaiVGI/VideoAlign).

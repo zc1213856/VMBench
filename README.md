@@ -36,10 +36,12 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
+
+
 
 |                       **CogVideoX-5B**                       |                       **HunyuanVideo**                       |                         **Mochi 1**                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |

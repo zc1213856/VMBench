@@ -21,9 +21,9 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 
 |                       **CogVideoX-5B**                       |                       **HunyuanVideo**                       |                         **Mochi 1**                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![frame_0001](asset/frame_0001.jpg) | ![frame_0001](asset/frame_0001.jpg) |![frame_0001](asset/frame_0001.jpg) |
+| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> |
 |                   **OpenSora-Plan-v1.3.0**                   |                      **OpenSora-v1.2**                       |                          **Wan2.1**                          |
-| ![frame_0001](asset/frame_0001.jpg) | ![frame_0001](asset/frame_0001.jpg) | ![frame_0001](asset/frame_0001.jpg) |
+| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <video src="asset/videos/car.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video> |
 
 **Prompt:** Three books are thrown into the air, their pages fluttering as they soar over the soccer field, landing in a scattered pattern.
 
@@ -72,13 +72,14 @@ cd VMBench
 
 # create conda environment
 conda create -n VMBench python=3.10
-pip install -r requirements.txt
+pip install torch torchvision
 
 # Install Grounded-Segment-Anything module
 cd Grounded-Segment-Anything
 python -m pip install -e segment_anything
 pip install --no-build-isolation -e GroundingDINO
 pip install -r requirements.txt
+
 # Install Groudned-SAM-2 module
 cd Grounded-SAM-2
 pip install -e .
@@ -86,29 +87,66 @@ pip install -e .
 # Install Q-Align module
 cd Q-Align
 pip install -e .
+
+# Install VideoMAEv2 module
+cd VideoMAEv2
+pip install -r requirements.txt
 ```
 
 ## Download checkpoints
+Place the pre-trained checkpoint files in the `.cache` directory at the root of the repository.
+Our model's checkpoints are provided on HuggingFace.
+
+```shell
+mkdir .cache
+cd .cache
+
+huggingface-cli download [your-org]/[your-model] --local-dir .cache/
+```
+Please organize the pretrained models in this structure:
+```shell
+VMBench/.cache
+├── baseline_offline.pth
+├── baseline_online.pth
+├── groundingdino_swinb_cogcoor.pth
+├── groundingdino_swint_ogc.pth
+├── sam2.1_hiera_large.pt
+├── sam_vit_h_4b8939.pth
+├── scaled_offline.pth
+├── scaled_online.pth
+└── vit_g_vmbench.pt
+```
 
 # 🔧Usage
 
-Firstly sample videos, 
+## Videos Preparation
 
-## Sample Videos
+Generate videos of your model using the 1050 prompts provided in `prompts/prompts.txt` or `prompts/prompts.json` and organize them in the following structure:
 
-*   [ ] Please follow our `sample_demo.py`to create videos. 
+```shell
+VMBench/eval_results/videos
+├── 0001.mp4
+├── 0002.mp4
+├── 0003.mp4
+├── 0004.mp4
+...
+└── 1050.mp4
+```
+
+**Note:** Ensure that you maintain the correspondence between prompts and video sequence numbers. The index for each prompt can be found in the `prompts/prompts.json` file.
+
+ <!-- Please follow our `sample_demo.py`to create videos.  -->
+ You can follow us `sample_video_demo.py` to generate videos.
+ Or you can put the results video named index into your own folder.
     
 
 ## Evaluation on the VMBench
 
-### Running the Whole Pipeline
-
-`bash eval.sh`
-
-### Running a Single Metric
+`bash evaluate.sh your_videos_folder`
 
 # ❤️Acknowledgement
 
 # 📜License
+The VMBench is licensed under [Apache-2.0 license](http://www.apache.org/licenses/LICENSE-2.0). You are free to use our codes for research purpose.
 
 # ✏️Citation

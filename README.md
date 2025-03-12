@@ -59,7 +59,6 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 
 *   [ ] 模型表现的五边形图
     
-
 ### VMBench Leaderboard
 
 # 🔨 Installation
@@ -127,24 +126,27 @@ Generate videos of your model using the 1050 prompts provided in `prompts/prompt
 VMBench/eval_results/videos
 ├── 0001.mp4
 ├── 0002.mp4
-├── 0003.mp4
-├── 0004.mp4
 ...
 └── 1050.mp4
 ```
 
 **Note:** Ensure that you maintain the correspondence between prompts and video sequence numbers. The index for each prompt can be found in the `prompts/prompts.json` file.
 
- <!-- Please follow our `sample_demo.py`to create videos.  -->
- You can follow us `sample_video_demo.py` to generate videos.
- Or you can put the results video named index into your own folder.
+You can follow us `sample_video_demo.py` to generate videos. Or you can put the results video named index into your own folder.
     
 
 ## Evaluation on the VMBench
+To evaluate generated videos using the VMBench, run the following command:
 
-`bash evaluate.sh your_videos_folder`
+```shell
+bash evaluate.sh your_videos_folder
+```
+
+The evaluation results for each video will be saved in the `./eval_results/${current_time}/results.json`. Scores for each dimension and the total score will be stored in the `./eval_results/${current_time}/scores.csv`.
 
 # ❤️Acknowledgement
+We would like to express our gratitude to the following open-source repositories that our work is based on: [GroundedSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [GroundedSAM2](https://github.com/IDEA-Research/Grounded-SAM-2), [Co-Tracker](https://github.com/facebookresearch/co-tracker), [MMPose](https://github.com/open-mmlab/mmpose), [Q-Align](https://github.com/Q-Future/Q-Align), [VideoMAEv2](https://github.com/OpenGVLab/VideoMAEv2), [VideoAlign](https://github.com/KwaiVGI/VideoAlign).
+Their contributions have been invaluable to this project.
 
 # 📜License
 The VMBench is licensed under [Apache-2.0 license](http://www.apache.org/licenses/LICENSE-2.0). You are free to use our codes for research purpose.

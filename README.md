@@ -23,7 +23,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> |
 |                   **OpenSora-Plan-v1.3.0**                   |                      **OpenSora-v1.2**                       |                          **Wan2.1**                          |
-| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | <video src="https://raw.githubusercontent.com/Ran0618/VMBench/asset/videos/car.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video> |
+| <img src="asset/frame_0001.jpg" width="200" /> | <img src="asset/frame_0001.jpg" width="200" /> | https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b|
 
 **Prompt:** Three books are thrown into the air, their pages fluttering as they soar over the soccer field, landing in a scattered pattern.
 

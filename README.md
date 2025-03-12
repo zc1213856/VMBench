@@ -68,38 +68,29 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
   </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
 **Prompt:** Four flickering candles cast shadows as they burn steadily on the balcony, their flames dancing with the gentle breeze.
 
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/791fd2ad-0604-4c09-9dde-1eaf5254ea4e" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/b5eca664-8ff2-41aa-9f77-0c30bc0b197f" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/f15f08cd-67f0-4053-a571-6a4afd39cd11" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/3d6006fc-f70a-4b28-a789-5a8d156e5368" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/1c98110c-0372-41ea-864a-57f5f7fdd5c7" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/2aa00829-1894-49b7-8572-42364dc890e5" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
@@ -109,24 +100,24 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/448a733c-4a76-4186-bf6e-a9c0b0515658" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/ee0c4949-319b-4e6b-a00f-b36d5bffd3f5" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/7089fd0a-23b8-454a-9c75-330ebafa9eb0" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/5bf476c1-707d-45fb-b77e-922b776be221" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/396ac6f7-9073-45b3-9fb1-42e896aae481" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/a92b2a48-b35d-412a-8472-49eca441fbfb" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
@@ -136,24 +127,24 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/235fa02e-0e65-4e23-bfe3-5cfc2f82d7e2" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/d13fd47c-3bfc-44a6-930c-4108e006f9d6" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/9aaeca69-2e8b-461b-8934-d96eba0a5c2c" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/4bb5d304-4e6e-44c4-91b8-81c44513087f" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/30aaab94-bd69-49b1-9334-e44e129c4ee8" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/d701dfcb-aad9-4e38-8ff7-437c57374a31" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
@@ -163,24 +154,24 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/7f379bf0-648d-4fc5-b267-2148b1959eef" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/d371ec05-4c2c-496e-a5be-c8e84229cc5c" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/09275d8a-8313-4174-bdaa-448984e3dab0" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
       <td>
-          <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/837d5a79-d144-469e-9e6a-0d32c129086f" width="100%" controls autoplay loop></video>
       </td>
       <td>
-          <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/103de7c4-608c-4434-a065-c18b74e0e421" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/33a152e6-bc5d-459f-9587-ea2c801dec90" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>

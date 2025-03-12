@@ -46,7 +46,7 @@ OMP_NUM_THREADS=1 torchrun --nproc_per_node=${GPUS_PER_NODE} --master_port ${MAS
         --dist_eval --enable_deepspeed --eval
 
 # MSS metric
-python motion_smoothness_score.py --meta_info_path $META_INFO_PATH
+python motion_smoothness_score.py --meta_info_path $META_INFO_PATH # Note: this metric score is based on the PAS, so calculate PAS first
 
 # save evaluation results
 python bench_utils/calculate_score.py -i $META_INFO_PATH -o $META_INFO_DIR"/scores.csv"

@@ -189,14 +189,19 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
     
 ### VMBench Leaderboard
 
+<div align="center">
+
 | Models               | Avg      | CAS      | MSS      | OIS      | PAS      | TCS      |
 | -------------------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | OpenSora-v1.2        | 51.6     | 31.2     | 61.9     | 73.0     | 3.4      | 88.5     |
-| Mochi 1              | 53.2     | 37.7     | 62.0     | 68.6     | 14.4     | 83.6     |
+| Mochi 1              | 53.2     | 37.7     | 62.0     | 68.6     | 14.4     | 83.6     |
 | OpenSora-Plan-v1.3.0 | 58.9     | 39.3     | 76.0     | **78.6** | 6.0      | 94.7     |
 | CogVideoX-5B         | 60.6     | 50.6     | 61.6     | 75.4     | 24.6     | 91.0     |
 | HunyuanVideo         | 63.4     | 51.9     | 81.6     | 65.8     | **26.1** | 96.3     |
 | Wan2.1               | **78.4** | **62.8** | **84.2** | 66.0     | 17.9     | **97.8** |
+
+</div>
+
 
 # 
 

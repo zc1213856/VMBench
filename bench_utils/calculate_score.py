@@ -22,7 +22,6 @@ def calculate_averages(json_file, output_csv):
 
     averages = {key: mean(values) for key, values in scores.items() if values}
     
-    # 计算总平均分
     total_score = mean(averages.values()) if averages else 0
     
     with open(output_csv, 'w', newline='') as f:
@@ -30,7 +29,6 @@ def calculate_averages(json_file, output_csv):
         writer.writerow(['Metric', 'Average Score'])
         for key, value in averages.items():
             writer.writerow([key, value * 100])
-        # 添加总平均分
         writer.writerow(['Total Score', total_score * 100])
 
     print(f"Results have been saved to {output_csv}")

@@ -276,7 +276,7 @@ You can follow us `sample_video_demo.py` to generate videos. Or you can put the 
 
 ## Evaluation on the VMBench
 
-## Running the Evaluation Pipeline
+### Running the Evaluation Pipeline
 To evaluate generated videos using the VMBench, run the following command:
 
 ```shell
@@ -285,7 +285,7 @@ bash evaluate.sh your_videos_folder
 
 The evaluation results for each video will be saved in the `./eval_results/${current_time}/results.json`. Scores for each dimension and the total score will be stored in the `./eval_results/${current_time}/scores.csv`.
 
-## Evaluation Efficiency
+### Evaluation Efficiency
 
 We conducted a test using the following configuration:
 

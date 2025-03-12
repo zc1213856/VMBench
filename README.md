@@ -20,6 +20,8 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 
 ## Gallery
 
+
+
 **Prompt:** A tourist joyfully splashes water in an outdoor swimming pool, their arms and legs moving energetically as they playfully splash around.
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
@@ -30,7 +32,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/3ed557d9-99c4-44a6-b218-2a3b9726ad72" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
@@ -46,6 +48,8 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
   </tr>
 </table>
 
+
+
 **Prompt:** Three books are thrown into the air, their pages fluttering as they soar over the soccer field, landing in a scattered pattern.
 
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
@@ -57,7 +61,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/dba7d40c-de5e-4f58-aa2c-4359daa0b358" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/6d3fd125-52e9-482a-b298-a457b5dcf0c9" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/aca77767-98f3-4d63-b186-8b7a5e61a231" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
@@ -84,7 +88,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/b5eca664-8ff2-41aa-9f77-0c30bc0b197f" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/f15f08cd-67f0-4053-a571-6a4afd39cd11" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/febcd3b3-e391-44c6-8b8e-16703aae28a2" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
@@ -111,7 +115,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/ee0c4949-319b-4e6b-a00f-b36d5bffd3f5" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/7089fd0a-23b8-454a-9c75-330ebafa9eb0" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/77fbd9b4-6bb7-4757-865d-0bdc7a93c8a9" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
@@ -138,7 +142,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/d13fd47c-3bfc-44a6-930c-4108e006f9d6" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/9aaeca69-2e8b-461b-8934-d96eba0a5c2c" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/0608ee78-9e09-4dad-8563-ad9b8817d188" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>
@@ -165,7 +169,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/d371ec05-4c2c-496e-a5be-c8e84229cc5c" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/09275d8a-8313-4174-bdaa-448984e3dab0" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/b0b57156-a7ff-4c0e-b0d7-dca90964edb8" width="100%" controls autoplay loop></video>
      </td>
   </tr>
   <tr>

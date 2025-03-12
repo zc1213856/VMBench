@@ -19,18 +19,10 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 
 |                       **CogVideoX-5B**                       |                       **HunyuanVideo**                       |                         **Mochi 1**                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="180" controls autoplay loop></video>
-
- | <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="180" controls autoplay loop></video>
-
- | <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="180" controls autoplay loop></video>
+| <video src="https://github.com/user-attachments/assets/74a0f3b0-6a39-42fe-98de-4a18d4130837" width="180" controls autoplay loop></video>| <video src="https://github.com/user-attachments/assets/7437404c-d732-4e57-9b74-bf1977bc5bfc" width="180" controls autoplay loop></video>| <video src="https://github.com/user-attachments/assets/fbce3824-2cab-426f-a684-ba020366fea2" width="180" controls autoplay loop></video>
  |
 |                   **OpenSora-Plan-v1.3.0**                   |                      **OpenSora-v1.2**                       |                          **Wan2.1**                          |
-| <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="180" controls autoplay loop></video>
-
- | <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="180" controls autoplay loop></video>
-
- | <video src="https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b" width="180" controls autoplay loop></video>|
+| <video src="https://github.com/user-attachments/assets/adf91760-ee43-4dae-8675-d6be9584ef98" width="180" controls autoplay loop></video>| <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="180" controls autoplay loop></video>| <video src="https://github.com/user-attachments/assets/1fcba978-148c-4140-a4b4-9adc95aecd5b" width="180" controls autoplay loop></video>|
 
 **Prompt:** Three books are thrown into the air, their pages fluttering as they soar over the soccer field, landing in a scattered pattern.
 

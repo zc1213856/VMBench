@@ -6,21 +6,21 @@ META_INFO_DIR=$(dirname "$META_INFO_PATH")
 python bench_utils/create_meta_info.py -v $VIDEO_DIR -o $META_INFO_PATH
 
 # PAS metric
-# python perceptible_amplitude_score.py --meta_info_path $META_INFO_PATH \
-#     --box_threshold 0.25 \
-#     --text_threshold 0.20 \
-#     --grid_size 30 \
-#     --device cuda
+python perceptible_amplitude_score.py --meta_info_path $META_INFO_PATH \
+    --box_threshold 0.25 \
+    --text_threshold 0.20 \
+    --grid_size 30 \
+    --device cuda
 
 # OIS metric
-# python object_integrity_score.py --meta-info-path $META_INFO_PATH \
-#     --save-predictions
+python object_integrity_score.py --meta-info-path $META_INFO_PATH \
+    --save-predictions
 
 # TCS metric
-# python temporal_coherence_score.py --meta_info_path $META_INFO_PATH \
-#     --box_threshold 0.25 \
-#     --text_threshold 0.20 \
-#     --grid_size 50
+python temporal_coherence_score.py --meta_info_path $META_INFO_PATH \
+    --box_threshold 0.25 \
+    --text_threshold 0.20 \
+    --grid_size 50
 
 # CAS metric
 set -x  # print the commands
@@ -46,7 +46,9 @@ OMP_NUM_THREADS=1 torchrun --nproc_per_node=${GPUS_PER_NODE} --master_port ${MAS
         --dist_eval --enable_deepspeed --eval
 
 # MSS metric
-# python motion_smoothness_score.py --meta_info_path $META_INFO_PATH
+python motion_smoothness_score.py --meta_info_path $META_INFO_PATH
 
+# save evaluation results
+python bench_utils/calculate_score.py -i $META_INFO_PATH -o $META_INFO_DIR"/scores.csv"
 # save evaluation results
 python bench_utils/calculate_score.py -i $META_INFO_PATH -o $META_INFO_DIR"/scores.csv"

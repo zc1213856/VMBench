@@ -250,7 +250,7 @@ cd ..
 pip install -r requirements.txt
 ```
 
-## Download checkpoints
+## Download Checkpoints
 Place the pre-trained checkpoint files in the `.cache` directory.
 You can download our model's checkpoints are from our [HuggingFace repository 🤗](https://huggingface.co/GD-ML/VMBench).
 You also need to download the checkpoints for [Q-Align 🤗](https://huggingface.co/q-future/one-align) and [BERT 🤗](https://huggingface.co/google-bert/bert-base-uncased) from their respective HuggingFace repositories

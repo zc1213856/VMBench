@@ -206,9 +206,6 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 
 </div>
 
-
-# 
-
 # 🔨 Installation
 
 ## Create Environment
@@ -219,7 +216,8 @@ cd VMBench
 
 # create conda environment
 conda create -n VMBench python=3.10
-pip install torch torchvision
+pip install --upgrade setuptools
+pip install torch==2.5.1 torchvision==0.20.1
 
 # Install Grounded-Segment-Anything module
 cd Grounded-Segment-Anything
@@ -228,39 +226,57 @@ pip install --no-build-isolation -e GroundingDINO
 pip install -r requirements.txt
 
 # Install Groudned-SAM-2 module
-cd Grounded-SAM-2
+cd ../Grounded-SAM-2
 pip install -e .
 
+# Install MMPose toolkit
+pip install -U openmim
+mim install mmengine
+mim install "mmcv==2.1.0"
+mim install "mmdet==3.2.0"
+cd ../mmpose
+pip install -r requirements.txt
+pip install -v -e .
+
 # Install Q-Align module
-cd Q-Align
+cd ../Q-Align
 pip install -e .
 
 # Install VideoMAEv2 module
-cd VideoMAEv2
+cd ../VideoMAEv2
+pip install -r requirements.txt
+
+cd ..
 pip install -r requirements.txt
 ```
 
 ## Download checkpoints
-Place the pre-trained checkpoint files in the `.cache` directory at the root of the repository.
-Our model's checkpoints are provided on HuggingFace.
+Place the pre-trained checkpoint files in the `.cache` directory.
+You can download our model's checkpoints are from our [HuggingFace repository 🤗](https://huggingface.co/GD-ML/VMBench).
+You also need to download the checkpoints for [Q-Align 🤗](https://huggingface.co/q-future/one-align) and [BERT 🤗](https://huggingface.co/google-bert/bert-base-uncased) from their respective HuggingFace repositories
 
 ```shell
 mkdir .cache
-cd .cache
 
-huggingface-cli download [your-org]/[your-model] --local-dir .cache/
+huggingface-cli download GD-ML/VMBench --local-dir .cache/
+huggingface-cli download q-future/one-align --local-dir .cache/
+huggingface-cli download google-bert/bert-base-uncased --local-dir .cache/
 ```
 Please organize the pretrained models in this structure:
 ```shell
 VMBench/.cache
-├── baseline_offline.pth
-├── baseline_online.pth
+├── google-bert
+│   └── bert-base-uncased
+│       ├── LICENSE
+│        ......
 ├── groundingdino_swinb_cogcoor.pth
-├── groundingdino_swint_ogc.pth
+├── q-future
+│   └── one-align
+│       ├── README.md
+│       ......
 ├── sam2.1_hiera_large.pt
 ├── sam_vit_h_4b8939.pth
 ├── scaled_offline.pth
-├── scaled_online.pth
 └── vit_g_vmbench.pt
 ```
 

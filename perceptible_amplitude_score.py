@@ -37,8 +37,6 @@ from segment_anything import (
 from cotracker.utils.visualizer import Visualizer, read_video_from_path
 from cotracker.predictor import CoTrackerPredictor
 
-import debugpy
-
 
 def load_video(video_path):
     cap = cv2.VideoCapture(video_path)

@@ -4,6 +4,10 @@
   <img src="./asset/logo.png" width="80%"/>
 </p>
 
+<p align="center">
+          🤗 <a href="https://huggingface.co/GD-ML/VMBench">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2503.10076">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://qwenlm.github.io/blog/qwen2.5/">Website</a>
+</p>
+
 # 🔥 Updates
 
 *   \[3/2024\] **VMBench** evaluation code & prompt set released!

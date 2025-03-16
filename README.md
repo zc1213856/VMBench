@@ -1,3 +1,5 @@
+# VMBench: A Benchmark for Perception-Aligned Video Motion Generation
+
 <p align="center">
   <img src="./asset/logo.png" width="80%"/>
 </p>

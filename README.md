@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-          🤗 <a href="https://huggingface.co/GD-ML/VMBench">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2503.10076">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://qwenlm.github.io/blog/qwen2.5/">Website</a>
+          🤗 <a href="https://huggingface.co/GD-ML/VMBench">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2503.10076">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://gd-aigc.github.io/VMBench-Website/">Website</a>
 </p>
 
 # 🔥 Updates

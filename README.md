@@ -339,3 +339,15 @@ Their contributions have been invaluable to this project.
 The VMBench is licensed under [Apache-2.0 license](http://www.apache.org/licenses/LICENSE-2.0). You are free to use our codes for research purpose.
 
 # ✏️Citation
+If you find our repo useful for your research, please consider citing our paper:
+  ```bibtex
+  @misc{ling2025vmbenchbenchmarkperceptionalignedvideo,
+        title={VMBench: A Benchmark for Perception-Aligned Video Motion Generation},
+        author={Xinrang Ling and Chen Zhu and Meiqi Wu and Hangyu Li and Xiaokun Feng and Cundian Yang and Aiming Hao and Jiashu Zhu and Jiahong Wu and Xiangxiang Chu},
+        year={2025},
+        eprint={2503.10076},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2503.10076},
+  }
+   ```

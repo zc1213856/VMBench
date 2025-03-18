@@ -221,6 +221,7 @@ cd VMBench
 
 # create conda environment
 conda create -n VMBench python=3.10
+conda activate VMBench
 pip install --upgrade setuptools
 pip install torch==2.5.1 torchvision==0.20.1
 

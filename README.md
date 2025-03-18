@@ -27,7 +27,6 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
 ## Gallery
 
 
-
 **Prompt:** A tourist joyfully splashes water in an outdoor swimming pool, their arms and legs moving energetically as they playfully splash around.
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
@@ -49,7 +48,7 @@ Video generation has advanced rapidly, improving evaluation methods, yet assessi
           <video src="https://github.com/user-attachments/assets/095d2455-2456-4fdf-a36f-1eee7d3485df" width="100%" controls autoplay loop></video>
       </td>
        <td>
-          <video src="https://github.com/user-attachments/assets/14b8787b-1fe0-4c75-9c93-0107198a436f" width="100%" controls autoplay loop></video>
+          <video src="https://github.com/user-attachments/assets/bb99eb38-647a-4f79-acf5-527bd8e5a7f3" width="100%" controls autoplay loop></video>
      </td>
   </tr>
 </table>
